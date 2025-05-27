@@ -11,12 +11,14 @@ const About = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading' >Get to <b>know</b> me!</h1>
           <p>
-            Hi, my name is <b>Devansh Sahni</b> and I am from New Delhi, India.
-            I'm a <b>MERN stack web developer</b> and a final year college student pursuing <b>BTech in CSE</b>. <br/><br/>
-            I have done an internship as a <b>software developer</b> at GoalFi which is a fintech startup.
-            I love to create original projects with beautiful designs, you can check out some of my work in the projects section.<br/><br/>
-            I am <b>open</b> to new collaborations or work where I can contribute and grow. Feel free to connect with me, links are in the footer.<br/>
-            Apart from coding I love to do photography, you can check out some of my shots here <a href="https://www.instagram.com/devansh_sahni_/?hl=en" target='_blank'>Instagram.</a>
+            <p>
+            Hey! I'm <b>Raine Jacob</b> — a curious mind with a passion for <b>data, design, and discovery</b>.<br/><br/>
+            I recently graduated with a <b>BCA</b> degree and have been diving deep into the world of <b>data analytics</b> ever since. I love exploring patterns in data, building sleek dashboards, and translating numbers into stories using tools like <b>Python, SQL, Power BI, Excel</b>, and <b>Tableau</b>.<br/><br/>
+            Whether it's breaking down business trends or finding hidden insights, I'm always up for a challenge. I’ve worked on several hands-on projects that reflect my skills and obsession with clean visuals and meaningful results.<br/><br/>
+            When I’m not analyzing datasets, you’ll probably find me <b>gaming</b>, geeking out over <b>new tech</b>, or learning something new just for fun.<br/><br/>
+            I’m actively looking for opportunities where I can grow, contribute, and collaborate with people who love data as much as I do.
+          </p>
+
           </p>
         </div>
 
