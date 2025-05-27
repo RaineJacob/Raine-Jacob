@@ -46,4 +46,3 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
 }
 
 export default  ProjectBox
-export default  ProjectBox
