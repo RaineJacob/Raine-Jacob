@@ -38,7 +38,7 @@ const Home = () => {
   I’m currently sharpening my skills with tools like <b>Tableau</b> and plan to explore <b>Snowflake</b> and <b>Looker</b> in the near future.<br/><br/>
 
   And yes — I run on <b>data</b>, curiosity, and a whole lot of <b>coffee</b>  <CiCoffeeCup />
-    <CiCoffeeCup />
+
 </p>
 
 </p>
