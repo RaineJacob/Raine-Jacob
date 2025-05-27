@@ -29,13 +29,20 @@ const Home = () => {
         <div className='AboutText'>
           <h1 className='AboutTextHeading'>Brief <b>introduction</b></h1>
           <p>
-            I love the journey of transforming a raw idea into a functional website or product that can genuinely impact lives.<br/>
-  For me, it’s not just about writing code — it’s about building experiences I can be proud of.<br/><br/>
+            <p>
+<p>
+  I love turning raw data into meaningful stories that drive real-world decisions and impact.<br/>
+  Whether it’s cleaning messy datasets or visualizing trends, I find joy in every step of the analytics process.<br/><br/>
 
-  I’m fluent in <b>C++</b>, have working knowledge of <b>Python</b>, and I’m currently building some exciting projects using the <b>MERN stack</b>.<br/>
-  On my radar next: diving into <b>Next.js</b>, <b>Three.js</b>, and <b>TypeScript</b> to level up my dev game.<br/><br/>
+  I'm confident in <b>SQL</b> and <b>Excel</b>, and have hands-on experience using <b>Python</b> for data analysis and <b>Power BI</b> for interactive dashboards.<br/>
+  I’m currently sharpening my skills with tools like <b>Tableau</b> and plan to explore <b>Snowflake</b> and <b>Looker</b> in the near future.<br/><br/>
 
-  Also, yes — I absolutely love <b>coffee</b>  <CiCoffeeCup />
+  And yes — I run on <b>data</b>, curiosity, and a whole lot of <b>coffee</b>  <CiCoffeeCup />
+    <CiCoffeeCup />
+</p>
+
+</p>
+  <CiCoffeeCup />
           </p>
         </div>
         <Tilt>
