@@ -39,9 +39,6 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
-            <a href={desc[projectName + 'Website']} target='_blank'>
-              <button className='projectbtn'><CgFileDocument/> Demo</button>
-            </a>
         </div>
     </div>
   )
