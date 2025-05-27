@@ -47,9 +47,7 @@ const About = () => {
         <Skills skill='AWS' />
       </div>
 
-      <div className='typewriterEffect'>
-        <span>Data Analyst | BI Developer</span>
-      </div>
+     
     </>
   )
 }
