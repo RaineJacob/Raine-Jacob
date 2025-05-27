@@ -18,7 +18,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     HrAnalyticsGithub: "https://github.com/RaineJacob/Hr-analytics"
   }
 
-  let show ='';
+ let show ='';
   if(desc[projectName + 'Github']===""){
     show="none";
   }
@@ -37,9 +37,13 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
               <button className='projectbtn'><FaGithub/> Github</button>
             </a>
 
+            <a href={desc[projectName + 'Website']} target='_blank'>
+              <button className='projectbtn'><CgFileDocument/> Demo</button>
+            </a>
         </div>
     </div>
   )
 }
 
+export default  ProjectBox
 export default  ProjectBox
