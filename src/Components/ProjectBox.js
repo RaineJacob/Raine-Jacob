@@ -12,7 +12,7 @@ const  ProjectBox = ({projectPhoto, projectName}) => {
     DeliveryDelayGithub: "https://github.com/RaineJacob/Delivery_delay_Analysis",
 
     MarketingAnalysisDesc: "This project analyzes marketing campaign data to evaluate ROI, customer segmentation, and performance metrics. It reflects real-world marketing analytics workflows and demonstrates Power BI and Python skills.",
-    MarketingAnalysisGithub: "https://github.com/RaineJacob/Marketing_Analysis",
+    MarketingAnalysisGithub: "https://github.com/RaineJacob/Marketing_Analysiss",
 
     HrAnalyticsDesc: "An HR data analysis project focused on employee attrition, satisfaction, and retention. It involves data preprocessing, exploratory analysis, and visualization to support data-driven HR decisions.",
     HrAnalyticsGithub: "https://github.com/RaineJacob/Hr-analytics"
