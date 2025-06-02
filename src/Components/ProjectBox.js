@@ -1,47 +1,84 @@
 import React from 'react';
-import {FaGithub} from "react-icons/fa";
-import {CgFileDocument} from "react-icons/cg";
-
-
+import { FaGithub } from "react-icons/fa";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
-  const desc = {
-    HotelBookingDesc: "An exploratory data analysis project on hotel booking data. This project uncovers patterns in booking behavior, cancellations, and customer demographics. It demonstrates skills in data cleaning, EDA, and storytelling using Python and visualization tools.",
-    HotelBookingGithub: "https://github.com/RaineJacob/Hotel_Booking",
-
-    DeliveryDelayDesc: "A detailed analysis of delivery delays using logistics data. This project highlights delay trends, contributing factors, and actionable insights for optimizing supply chains. It showcases SQL, Python, and visualization in a business context.",
-    DeliveryDelayGithub: "https://github.com/RaineJacob/Delivery_delay_Analysis",
-
-    MarketingAnalysisDesc: "This project analyzes marketing campaign data to evaluate ROI, customer segmentation, and performance metrics. It reflects real-world marketing analytics workflows and demonstrates Power BI and Python skills.",
-    MarketingAnalysisGithub: "https://github.com/RaineJacob/Marketing_Analysis",
-
-    HrAnalyticsDesc: "An HR data analysis project focused on employee attrition, satisfaction, and retention. It involves data preprocessing, exploratory analysis, and visualization to support data-driven HR decisions.",
-    HrAnalyticsGithub: "https://github.com/RaineJacob/Hr-analytics"
+  const projects = {
+    "Hotel Booking Analysis": {
+      desc: "EDA on hotel bookings to analyze cancellations, guest behavior, and trends using Python and visualization tools.",
+      github: "https://github.com/RaineJacob/Hotel_Booking",
+    },
+    "Delivery Delay Analysis": {
+      desc: "Logistics data analysis to uncover delivery delay patterns and optimize supply chains with Python and SQL.",
+      github: "https://github.com/RaineJacob/Delivery_delay_Analysis",
+    },
+    "Marketing Analysis": {
+      desc: "Analyzed marketing campaign data to assess ROI, segment customers, and evaluate performance using Power BI.",
+      github: "https://github.com/RaineJacob/Marketing_Analysis",
+    },
+    "Hr Analytics": {
+      desc: "Exploratory analysis of employee attrition and satisfaction to drive data-based HR decisions.",
+      github: "https://github.com/RaineJacob/Hr-analytics",
+    },
   };
-  
 
-  let show ='';
-  if(desc[projectName + 'Github']===""){
-    show="none";
+  const project = projects[projectName];
+
+  if (!project) {
+    return <div>Invalid project name: {projectName}</div>;
   }
-    
+
   return (
-    <div className='projectBox'> 
-        <img className='projectPhoto' src={projectPhoto} alt="Project display" /> 
-        <div>
-            <br />
-            <h3>{projectName}</h3>
-            <br />
-            {desc[projectName + 'Desc']}
-            <br />
+    <div className="projectBox">
+      <img className="projectPhoto" src={projectPhoto} alt="Project display" />
+      <div>
+        <br />
+        <h3>{projectName}</h3>
+        <br />
+        <small>{project.desc}</small>
 
-            <a style={{display:show}} href={desc[projectName + 'Github']} target='_blank'>
-              <button className='projectbtn'><FaGithub/> Github</button>
-            </a>
-
-        </div>
+        <br />
+        {project.github && (
+          <a
+            href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none" }}
+          >
+            <button
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "8px",
+                backgroundColor: "#000000",
+                color: "#ffffff",
+                marginTop: "10px",
+                padding: "10px 16px",
+                border: "none",
+                borderRadius: "8px",
+                fontSize: "14px",
+                cursor: "pointer",
+                transition: "background-color 0.3s ease, box-shadow 0.3s ease",
+                boxShadow: "0 2px 5px rgba(0, 0, 0, 0.2)",
+              }}
+              onMouseOver={(e) => {
+                e.currentTarget.style.backgroundColor = "#1a1a1a";
+                e.currentTarget.style.boxShadow =
+                  "0 4px 10px rgba(0, 0, 0, 0.3)";
+              }}
+              onMouseOut={(e) => {
+                e.currentTarget.style.backgroundColor = "#000000";
+                e.currentTarget.style.boxShadow =
+                  "0 2px 5px rgba(0, 0, 0, 0.2)";
+              }}
+            >
+              <FaGithub size={18} />
+              View on GitHub
+            </button>
+          </a>
+        )}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default  ProjectBox
+export default ProjectBox;
