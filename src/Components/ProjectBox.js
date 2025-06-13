@@ -19,9 +19,9 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       desc: "Exploratory analysis of employee attrition and satisfaction to drive data-based HR decisions.",
       github: "https://github.com/RaineJacob/Hr-analytics",
     },
-    "Olist Ecommerce": {
-      desc: " Analyzed Olist's e-commerce data using T-SQL to uncover 15+ actionable business insights around revenue, logistics, customer behavior, and performance trends",
-      github: "https://github.com/RaineJacob/Hr-analytics",
+    "Olist E-commerce SQL Analysis": {
+      desc: "Comprehensive SQL analysis on Olist dataset to derive 15+ business insights using T-SQL and Kaggle data.",
+      github: "https://github.com/RaineJacob/Olist-Ecomerce",
     },
   };
 
@@ -39,7 +39,6 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
         <h3>{projectName}</h3>
         <br />
         <small>{project.desc}</small>
-
         <br />
         {project.github && (
           <a
