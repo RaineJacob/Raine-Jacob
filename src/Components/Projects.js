@@ -4,7 +4,6 @@ import HotelBookingImage from '../images/HotelBookingImage.png';
 import DeliveryDelayImage from '../images/DeliveryDelayImage.png';
 import MarketingAnalysisImage from '../images/MarketingAnalysisImage.png';
 import HrAnalyticsImage from '../images/HrAnalyticsImage.png';
-import OlistImage from '../images/olist.jpg';
 
 const Projects = () => {
   return (
@@ -15,7 +14,6 @@ const Projects = () => {
         <ProjectBox projectPhoto={DeliveryDelayImage} projectName="Delivery Delay Analysis" />
         <ProjectBox projectPhoto={MarketingAnalysisImage} projectName="Marketing Analysis" />
         <ProjectBox projectPhoto={HrAnalyticsImage} projectName="Hr Analytics" />
-        <ProjectBox projectPhoto={OlistImage} projectName="Olist Ecommerce Analysis" />
       </div>
 
     </div>
