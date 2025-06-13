@@ -19,6 +19,10 @@ const ProjectBox = ({ projectPhoto, projectName }) => {
       desc: "Exploratory analysis of employee attrition and satisfaction to drive data-based HR decisions.",
       github: "https://github.com/RaineJacob/Hr-analytics",
     },
+    "Olist Ecommerce": {
+      desc: " Analyzed Olist's e-commerce data using T-SQL to uncover 15+ actionable business insights around revenue, logistics, customer behavior, and performance trends",
+      github: "https://github.com/RaineJacob/Hr-analytics",
+    },
   };
 
   const project = projects[projectName];
