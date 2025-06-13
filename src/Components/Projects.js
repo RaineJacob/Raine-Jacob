@@ -4,7 +4,7 @@ import HotelBookingImage from '../images/HotelBookingImage.png';
 import DeliveryDelayImage from '../images/DeliveryDelayImage.png';
 import MarketingAnalysisImage from '../images/MarketingAnalysisImage.png';
 import HrAnalyticsImage from '../images/HrAnalyticsImage.png';
-import OlistImage from '../images/Olist.jpg';
+import OlistImage from '../images/olist.jpg';
 
 const Projects = () => {
   return (
